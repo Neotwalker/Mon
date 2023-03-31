@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="header--wrapper">
+					<div class="header--wrapper__top">
+						<div class="wrapper">
+							<div class="logo">
+								<img src="img/logo.svg" alt="#">
+							</div>
+							<nav class="menu">
+								<ul class="list">
+									<li><a href="#">Home</a></li>
+									<li><a href="#">Marketplace</a></li>
+									<li><a href="#">Lootboxes</a></li>
+									<li><a href="#">Monland</a></li>
+									<li class="dropdown">
+										<span class="dropdown--title">Recources
+											<div class="icon arrow">
+												<svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M7 1L4 4L1 1" stroke="#B1B5C3" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</div>
+										</span>
+										<ul class="list--dropdown">
+											<li>
+												<a href="#">
+													<i class="icon">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path class="fill" fill-rule="evenodd" clip-rule="evenodd" d="M3 6.01349V8.81048V18C3 18.5523 3.44772 19 4 19L20.5263 19C20.7879 19 21 18.7879 21 18.5263V6.01349L12.4912 12.6315C12.2023 12.8562 11.7977 12.8562 11.5088 12.6315L3 6.01349ZM19.6969 5H4.30306L12 10.9865L19.6969 5Z"/>
+														</svg>
+													</i>
+													<div class="text">
+														<span class="text--title">Help Center</span>
+														<span class="text--subtitle">Get the help you need</span>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i class="icon">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path class="stroke fill" d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="#B1B5C3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+															<path d="M9.09 8.99959C9.3251 8.33126 9.78915 7.7677 10.4 7.40873C11.0108 7.04975 11.7289 6.91853 12.4272 7.0383C13.1255 7.15808 13.7588 7.52112 14.2151 8.06312C14.6713 8.60512 14.9211 9.29112 14.92 9.99959C14.92 11.9996 11.92 12.9996 11.92 12.9996" stroke="#23262F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+															<path d="M12 17H12.01" stroke="#23262F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+														</svg>
+													</i>
+													<div class="text">
+														<span class="text--title">FAQ</span>
+														<span class="text--subtitle">Find answers to common questions</span>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i class="icon">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path class="stroke fill" d="M5 4V20.5263C5 20.7879 5.21208 21 5.47368 21H18C18.5523 21 19 20.5523 19 20V7.64493C19 7.39907 18.9094 7.16183 18.7456 6.97852L15.4877 3.33359C15.298 3.12133 15.0268 3 14.7421 3H6C5.44772 3 5 3.44772 5 4Z" stroke="#B1B5C3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+															<rect x="6" y="9" width="8" height="2" rx="1" fill="#23262F"/>
+															<rect x="6" y="13" width="11" height="2" rx="1" fill="#23262F"/>
+															<rect x="6" y="17" width="6" height="2" rx="1" fill="#23262F"/>
+														</svg>
+													</i>
+													<div class="text">
+														<span class="text--title">Docs</span>
+														<span class="text--subtitle">Dive into the technical side</span>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i class="icon">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path class="fill" d="M3 15C3 14.4477 3.44772 14 4 14H6C6.55228 14 7 14.4477 7 15V22H3V15Z" />
+															<path class="fill" d="M10 11C10 10.4477 10.4477 10 11 10H13C13.5523 10 14 10.4477 14 11V22H10V11Z" />
+															<path class="fill" d="M17 3C17 2.44772 17.4477 2 18 2H20C20.5523 2 21 2.44772 21 3V22H17V3Z" />
+														</svg>
+													</i>
+													<div class="text">
+														<span class="text--title">Stats</span>
+														<span class="text--subtitle">Monitor metrics and data</span>
+													</div>
+												</a>
+											</li>
+											<div class="social">
+												<a href="#" class="social--link">
+													<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M31.0769 13.1309C30.2531 13.4923 29.3752 13.7318 28.46 13.8482C29.4015 13.286 30.1202 12.4026 30.458 11.3378C29.5802 11.8612 28.6109 12.2309 27.578 12.4372C26.7445 11.5497 25.5565 11 24.2605 11C21.746 11 19.7217 13.0409 19.7217 15.5429C19.7217 15.9029 19.7522 16.2491 19.8269 16.5786C16.0511 16.3945 12.71 14.5848 10.4655 11.828C10.0737 12.5078 9.84385 13.286 9.84385 14.1237C9.84385 15.6966 10.6538 17.0909 11.8612 17.8982C11.1315 17.8843 10.4157 17.6725 9.80923 17.3388C9.80923 17.3526 9.80923 17.3706 9.80923 17.3886C9.80923 19.5957 11.3835 21.4289 13.448 21.8512C13.0783 21.9523 12.6754 22.0008 12.2572 22.0008C11.9665 22.0008 11.6729 21.9842 11.3974 21.9232C11.9858 23.7218 13.6557 25.0442 15.6412 25.0871C14.096 26.2958 12.134 27.0242 10.01 27.0242C9.63754 27.0242 9.28031 27.0075 8.92308 26.9618C10.9349 28.2592 13.3192 29 15.8905 29C24.248 29 28.8172 22.0769 28.8172 16.076C28.8172 15.8752 28.8103 15.6814 28.8006 15.4889C29.702 14.8492 30.4594 14.0503 31.0769 13.1309Z" fill="#B1B5C3"/>
+													</svg>
+												</a>
+												<a href="#" class="social--link">
+													<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M13.8493 24.529C18.6331 26.3959 22.7042 26.7595 27.3175 23.8536C27.2837 23.9043 26.3711 25.2563 23.9713 25.9492C24.4783 26.6421 25.1712 27.4363 25.1712 27.4363C26.7091 27.4363 28.2132 26.9969 29.5144 26.152C30.5284 25.4759 31.103 24.3099 30.9847 23.0931C30.7819 21.0144 30.2918 18.9865 29.5313 17.0431C28.5681 14.5081 26.2528 12.7505 23.5658 12.497C23.3291 12.4801 23.1602 12.4801 23.0588 12.4801L22.7884 12.7505C25.881 13.6293 27.4189 14.9981 27.4527 15.0489C22.7039 12.6491 17.0932 12.6153 12.3105 14.9475C12.3105 14.9475 13.8315 13.4434 17.1945 12.6491L16.9918 12.4463C16.6368 12.4463 16.2988 12.4801 15.944 12.5308C13.4597 12.9533 11.3811 14.6601 10.4854 17.0092C9.70798 19.0372 9.201 21.1665 9.01512 23.3297C8.91372 24.4788 9.45451 25.6112 10.4009 26.2703C11.6515 27.0983 13.1386 27.5377 14.6427 27.5377C14.6427 27.5377 15.2511 26.7434 15.8595 26.0336C13.578 25.3576 12.6485 24.0057 12.6316 23.955L13.061 24.1742C13.3177 24.3054 13.5808 24.4242 13.8493 24.529ZM16.5017 23.0593C15.4032 23.0255 14.5413 22.096 14.5751 20.9806C14.6089 19.9329 15.4539 19.0879 16.5017 19.0541C17.6002 19.0879 18.4621 20.0173 18.4282 21.1327C18.3775 22.1806 17.5495 23.0255 16.5017 23.0593ZM23.3967 23.0593C22.2982 23.0255 21.4363 22.096 21.4702 20.9806C21.504 19.9329 22.349 19.0879 23.3967 19.0541C24.4952 19.0879 25.3571 20.0173 25.3233 21.1327C25.2895 22.1806 24.4445 23.0255 23.3967 23.0593Z" fill="#B1B5C3"/>
+													</svg>
+												</a>
+												<a href="#" class="social--link">
+													<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M9.48512 19.8676L14.5455 21.5862L26.5593 14.2415C26.7334 14.135 26.9119 14.3715 26.7617 14.5098L17.6663 22.8816L17.3281 27.5686C17.3023 27.9251 17.7318 28.1236 17.9867 27.873L20.7872 25.1192L25.9066 28.9947C26.4585 29.4125 27.2575 29.118 27.4064 28.4421L30.9711 12.2564C31.1744 11.333 30.2697 10.5539 29.3867 10.892L9.45937 18.5227C8.83425 18.7621 8.85128 19.6523 9.48512 19.8676Z" fill="#B1B5C3"/>
+													</svg>
+												</a>
+												<a href="#" class="social--link">
+													<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0_18_1630)">
+															<path d="M21.5373 19.9997C21.5373 23.7636 18.5069 26.8148 14.7687 26.8148C11.0304 26.8148 8 23.7636 8 19.9997C8 16.2358 11.0304 13.1846 14.7687 13.1846C18.5068 13.1846 21.5373 16.2358 21.5373 19.9997Z" fill="#B1B5C3"/>
+															<path d="M28.9625 19.9992C28.9625 23.5422 27.4473 26.4144 25.5782 26.4144C23.7091 26.4144 22.1938 23.5422 22.1938 19.9992C22.1938 16.4562 23.7091 13.584 25.5782 13.584C27.4473 13.584 28.9625 16.4562 28.9625 19.9992Z" fill="#B1B5C3"/>
+															<path d="M32.0002 19.9997C32.0002 23.1741 31.4673 25.7475 30.8099 25.7475C30.1525 25.7475 29.6196 23.1741 29.6196 19.9997C29.6196 16.8253 30.1525 14.252 30.8099 14.252C31.4673 14.252 32.0002 16.8253 32.0002 19.9997Z" fill="#B1B5C3"/>
+														</g>
+														<defs>
+															<clipPath id="clip0_18_1630">
+															<rect width="24" height="24" fill="white" transform="translate(8 8)"/>
+															</clipPath>
+														</defs>
+													</svg>
+												</a>
+											</div>
+										</ul>
+									</li>
+								</ul>
+							</nav>
+							<div class="dropdown english">
+								<span class="dropdown--title">English
+									<div class="icon arrow">
+										<svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M7 1L4 4L1 1" stroke="#B1B5C3" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</div>
+								</span>
+								<ul class="list--dropdown">
+									<li><a href="#">Spanish</a></li>
+									<li><a href="#">Italian</a></li>
+									<li><a href="#">Turkish</a></li>
+								</ul>
+							</div>
+							<a href="#" class="background">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M23.4327 13.6528C23.1873 13.5914 22.9419 13.6528 22.7272 13.8061C21.9298 14.4809 21.0097 15.033 19.9975 15.401C19.0467 15.7691 18.0039 15.9531 16.8997 15.9531C14.4154 15.9531 12.1457 14.9409 10.5202 13.3154C8.8946 11.6898 7.88245 9.42016 7.88245 6.93581C7.88245 5.89299 8.06648 4.88085 8.37319 3.96072C8.71057 2.97924 9.20131 2.08979 9.8454 1.32301C10.1214 0.985629 10.0601 0.494893 9.72272 0.218854C9.50802 0.0654987 9.26265 0.00415663 9.01728 0.0654987C6.41024 0.770932 4.14059 2.33515 2.51502 4.42078C0.950802 6.47574 0 9.02143 0 11.8125C0 15.1556 1.34953 18.1921 3.55784 20.4004C5.76615 22.6087 8.80258 23.9582 12.1457 23.9582C14.9675 23.9582 17.5745 22.9767 19.6601 21.3512C21.7764 19.6949 23.31 17.3333 23.9541 14.6342C24.1074 14.1742 23.8621 13.7448 23.4327 13.6528ZM18.74 20.063C16.9611 21.4739 14.6914 22.3327 12.2071 22.3327C9.29332 22.3327 6.65561 21.1365 4.75401 19.2349C2.85241 17.3333 1.65624 14.6956 1.65624 11.7818C1.65624 9.35882 2.45368 7.1505 3.83388 5.37158C4.78468 4.14474 5.98085 3.1326 7.36105 2.42717C7.20769 2.76455 7.05434 3.10193 6.93165 3.46998C6.53293 4.57414 6.3489 5.73964 6.3489 6.96648C6.3489 9.88022 7.54507 12.5486 9.44668 14.4502C11.3483 16.3518 14.0167 17.548 16.9304 17.548C18.2186 17.548 19.4454 17.3333 20.5803 16.9039C20.979 16.7505 21.3777 16.5972 21.7458 16.4131C21.0097 17.824 19.9975 19.0815 18.74 20.063Z" fill="#B1B5C3"/>
+								</svg>
+							</a>
+						</div>
+					</div>
+					<div class="header--wrapper__bottom">
+						<div class="left">
+							<h1 class="h1">Decentralised Gaming Refined</h1>
+							<p>My Own NFT (MON) platform is designed to bring players and creators together as they discover, trade and build in the Web3 space</p>
+							<div class="copy">
+								<div class="title">MON token Conrtact</div>
+								<div class="copy--wrapper">
+									<div id="myBlock">0x8888818f35bbed1c6...4bf1b15446fad088888</div>
+									<button id="copyButton">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M6.00146 6.00147C6.66152 5.88432 7.43385 5.83333 8.33363 5.83333C12.8704 5.83333 14.1667 7.12963 14.1667 11.6667C14.1667 12.5652 14.1139 13.3365 13.9944 13.996M6.00146 6.00147C6.33674 4.11246 7.21389 3.14319 8.98815 2.73816C9.7201 2.57107 10.6047 2.5 11.667 2.5C16.2037 2.5 17.5 3.7963 17.5 8.33333C17.5 9.39383 17.4265 10.2773 17.2564 11.0085C16.8444 12.7806 15.8658 13.6586 13.9944 13.996M6.00146 6.00147C5.88228 6.02263 5.76676 6.04594 5.65482 6.07149C3.26068 6.61803 2.5 8.19194 2.5 11.6667C2.5 16.2037 3.84675 17.5 8.33363 17.5C11.7717 17.5 13.3658 16.7389 13.9231 14.3418C13.9491 14.2301 13.9728 14.1148 13.9944 13.996" stroke="#FCFCFD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</button>
+									<div id="successMessage">Text copied successfully!</div>
+								</div>
+							</div>
+							<div class="links">
+								<a href="#" class="link">Whitepaper
+									<div class="icon">
+										<svg viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1 1L6 7L1 13" stroke="#FCFCFD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</div>
+								</a>
+								<a href="#" class="link">Tokenomics
+									<div class="icon">
+										<svg viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1 1L6 7L1 13" stroke="#FCFCFD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="right">
+							<img src="img/loki.png" alt="#" class="right--main">
+							<div class="right--background">
+								<div class="circle circle-1">
+									<img src="img/circle/ellipse1.svg" alt="#" class="icons--item icons-1">
+									<img src="img/circle/ellipse4.svg" alt="#" class="icons--item icons-4">
+									<img src="img/circle/icon1.svg" alt="#" class="icons--item icons-5 platform">
+									<img src="img/circle/icon3.svg" alt="#" class="icons--item icons-7 platform">
+									<img src="img/circle/icon4.svg" alt="#" class="icons--item icons-8 platform">
+									<img src="img/circle/icon6.svg" alt="#" class="icons--item icons-10 platform">
+								</div>
+								<div class="circle circle-2">
+									<img src="img/circle/ellipse2.svg" alt="#" class="icons--item icons-2">
+									<img src="img/circle/ellipse3.svg" alt="#" class="icons--item icons-3">
+									<img src="img/circle/icon2.svg" alt="#" class="icons--item icons-6 platform">
+									<img src="img/circle/icon5.svg" alt="#" class="icons--item icons-9 platform">
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu menu--mobile">
+			<div class="menu--mobile__header">
+				<div class="logo">
+					<img src="img/logo.svg" alt="#">
+				</div>
+				<div class="burger close">
+					<span class="top"></span>
+					<span class="bottom"></span>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<main class="main">
+		<section class="main--partners">
+			<div class="container">
+				<div class="row">
+					<div class="main--partners__wrapper">
+						<img src="img/partners/partner-1.png" alt="#">
+						<img src="img/partners/partner-2.png" alt="#">
+						<img src="img/partners/partner-3.png" alt="#">
+						<img src="img/partners/partner-4.png" alt="#">
+						<img src="img/partners/partner-5.png" alt="#">
+						<img src="img/partners/partner-6.png" alt="#">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="main--advantages">
+			<div class="container">
+				<div class="row">
+					<div class="main--advantages__wrapper">
+						<a href="#" class="item">
+							<div class="image">
+								<img src="img/advantages/1.png" alt="">
+							</div>
+							<div class="text">How to start developing your own metaverse project based on MON SDK</div>
+						</a>
+						<a href="#" class="item">
+							<div class="image">
+								<img src="img/advantages/2.png" alt="">
+							</div>
+							<div class="text">Millions of digital assets are changing the rule of game now. Create your,,,</div>
+						</a>
+						<a href="#" class="item">
+							<div class="image">
+								<img src="img/advantages/3.png" alt="">
+							</div>
+							<div class="text">Revolutionary lootbox is here. How to make money on your NFT with lootbo..</div>
+						</a>
+						<a href="#" class="item">
+							<div class="image">
+								<img src="img/advantages/4.png" alt="">
+							</div>
+							<div class="text">Start your road to the moon with Loki.  Earn, play and trade on MON marketp..</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="main--striving">
+			<div class="container">
+				<div class="row">
+					<div class="main--striving__title">
+						<span class="dmsans">Platforms BY MON</span>
+						<h2 class="h2">Striving for the new heights</h2>
+						<p>A visionary crypto community dedicated to constructing the future of decentralised gaming platforms</p>
+					</div>
+					<div class="main--striving__wrapper">
+						<a href="#" class="item">
+							<span class="item--overhead dmsans">Create & PLAY</span>
+							<h3 class="h3">Lootboxes</h3>
+							<p>Fair and transparent decentralised raffle experience seasoned with a unique opportunity to create your own lootbox. Enjoy the draw from both sides of the game</p>
+							<span class="item--link">
+								Open lootbox
+								<div class="icon">
+									<svg viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 1L6 7L1 13" stroke="#FCFCFD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+									</svg>
+								</div>
+							</span>
+						</a>
+						<a href="#" class="item">
+							<span class="item--overhead dmsans">Buy, sell & create</span>
+							<h3 class="h3">Marketplace</h3>
+							<p>Mint, discover and trade unique blockchain assets. Participate in auctions, benefit from exclusive offers and enjoy your royalties</p>
+							<span class="item--link">
+								Explore
+								<div class="icon">
+									<svg viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 1L6 7L1 13" stroke="#FCFCFD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+									</svg>
+								</div>
+							</span>
+						</a>
+						<a href="#" class="item">
+							<span class="item--overhead dmsans">EARN & DEVELOP</span>
+							<h3 class="h3">Game Engine</h3>
+							<p>Powerful and versatile, it provides tools for creating Web3 economy games using different types of blockchain assets, such as NFT 1155, NFT 721 and erc20 tokens</p>
+							<span class="item--link">
+								Build to earn
+								<div class="icon">
+									<svg viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 1L6 7L1 13" stroke="#FCFCFD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+									</svg>
+								</div>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="main--dive">
+			<div class="container">
+				<div class="row">
+					<h2 class="h2">Dive into Mon.Land</h2>
+					<div class="main--dive__wrapper">
+						<div class="image image-1">
+							<img src="img/monland/Frame 7183.png" alt="#">
+							<img class="rotate" src="img/monland/rotate/Frame 7183.png" alt="#">
+						</div>
+						<div class="image image-2">
+							<img src="img/monland/Frame 7184.png" alt="#">
+							<img class="rotate" src="img/monland/rotate/Frame 7184.png" alt="#">
+						</div>
+						<div class="image image-3">
+							<img src="img/monland/Frame 7185.png" alt="#">
+							<img class="rotate" src="img/monland/rotate/Frame 7185.png" alt="#">
+						</div>
+						<div class="image image-4">
+							<img src="img/monland/Frame 7186.png" alt="#">
+							<img class="rotate" src="img/monland/rotate/Frame 7186.png" alt="#">
+						</div>
+						<div class="image image-5">
+							<img src="img/monland/Frame 7187.png" alt="#">
+							<img class="rotate" src="img/monland/rotate/Frame 7187.png" alt="#">
+						</div>
+						<div class="image image-6">
+							<img src="img/monland/Frame 7188.png" alt="#">
+							<img class="rotate" src="img/monland/rotate/Frame 7188.png" alt="#">
+						</div>
+						<div class="image image-7">
+							<img src="img/monland/Frame 7189.png" alt="#">
+							<img class="rotate" src="img/monland/rotate/Frame 7189.png" alt="#">
+						</div>
+						<div class="image image-8">
+							<img src="img/monland/Frame 7190.png" alt="#">
+							<img class="rotate" src="img/monland/rotate/Frame 7190.png" alt="#">
+						</div>
+						<div class="image image-9">
+							<img src="img/monland/Frame 7191.png" alt="#">
+							<img class="rotate" src="img/monland/rotate/Frame 7191.png" alt="#">
+						</div>
+						<div class="image image-10">
+							<img src="img/monland/Frame 7192.png" alt="#">
+							<img class="rotate" src="img/monland/rotate/Frame 7192.png" alt="#">
+						</div>
+						<div class="image image-11">
+							<img src="img/monland/Frame 7193.png" alt="#">
+							<img class="rotate" src="img/monland/rotate/Frame 7193.png" alt="#">
+						</div>
+						<div class="image image-12">
+							<img src="img/monland/Frame 7194.png" alt="#">
+							<img class="rotate" src="img/monland/rotate/Frame 7194.png" alt="#">
+						</div>
+						<div class="image image-13">
+							<img src="img/monland/Frame 7195.png" alt="#">
+							<img class="rotate" src="img/monland/rotate/Frame 7195.png" alt="#">
+						</div>
+						<div class="image image-14">
+							<img src="img/monland/Frame 7196.png" alt="#">
+							<img class="rotate" src="img/monland/rotate/Frame 7196.png" alt="#">
+						</div>
+					</div>
+					<div class="main--dive__info">
+						<h3 class="h3">Mon.land is weaving plots. You create your own story</h3>
+						<div class="text">
+							<p class="text-1">
+								Once you step into Monland, it will never be the same again. Treasure hunters should take care of the fruitful yet
+								fragile biomes of Monland. Mons, the inhabitants of this mysterious place, will initiate you in the secrets of their
+								home, and show places untouched by man, where the rarest treasures are found. 
+							</p>
+							<p class="text-2">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ratione.
+							</p>
+							<p class="text-3">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, voluptatibus ex assumenda culpa corporis veniam nulla amet aliquid modi esse.
+							</p>
+							<p class="text-4">
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque sequi doloribus odio, dignissimos repudiandae,
+								voluptate minima asperiores optio vitae incidunt consectetur maxime voluptatem ipsa cum animi accusamus ullam ab sed?
+							</p>
+							<p class="text-5">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ratione.
+							</p>
+							<p class="text-6">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ratione. Lorem ipsum dolor sit amet.
+							</p>
+							<p class="text-7">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, voluptates?
+							</p>
+							<p class="text-8">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ratione. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, quis magni.
+							</p>
+							<p class="text-9">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ratione. Lorem ipsum dolor sit amet.
+							</p>
+							<p class="text-10">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, eligendi!
+							</p>
+							<p class="text-11">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ratione.
+							</p>
+							<p class="text-12">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ratione. Lorem ipsum dolor sit amet.
+							</p>
+							<p class="text-13">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, cum.
+							</p>
+							<p class="text-14">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ratione. Lorem, ipsum.
+							</p>
+							<div class="buttons">
+								<a href="#" class="link">
+									See MON NFTS
+									<div class="icon">
+										<svg viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1 1L6 7L1 13" stroke="#FCFCFD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg>
+									</div>
+								</a>
+								<a href="#" class="button button--hover"><span>Visit MONland</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="main--game">
+			<div class="container">
+				<div class="row">
+					<h2 class="h2">Game economies, owned by players </h2>
+					<span class="subtitle">
+						Whether you're a gamer, creator, or collector, MON provides a platform that caters to your needs
+						and helps you make the most of your in-game assets.
+					</span>
+					<div class="main--game__wrapper">
+						<div class="left">
+							<div class="left--item active">
+								<div class="title">
+									<span class="title--info">Built-in comprehensive marketplace</span>
+									<div class="icon">
+										<span></span>
+										<span></span>
+									</div>
+								</div>
+								<div class="left--item__text">
+									<p>
+										MON makes it easier to turn your game ideas into reality.<br>
+										By listing your gaming NFTs on MON market, you open various revenue opportunities
+									</p>
+								</div>
+							</div>
+							<div class="left--item">
+								<div class="title">
+									<span class="title--info">Adaptability and versatility</span>
+									<div class="icon">
+										<span></span>
+										<span></span>
+									</div>
+								</div>
+								<div class="left--item__text">
+									<p>
+										MON makes it easier to turn your game ideas into reality.<br>
+										By listing your gaming NFTs on MON market, you open various revenue opportunities
+									</p>
+								</div>
+							</div>
+							<div class="left--item">
+								<div class="title">
+									<span class="title--info">Diverse economic models</span>
+									<div class="icon">
+										<span></span>
+										<span></span>
+									</div>
+								</div>
+								<div class="left--item__text">
+									<p>
+										MON makes it easier to turn your game ideas into reality.<br>
+										By listing your gaming NFTs on MON market, you open various revenue opportunities
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="right">
+							<div class="right--wrapper">
+								<div class="right--image">
+									<img src="img/game/product_img.png" alt="#">
+								</div>
+								<div class="right--text">
+									<div class="icon"><img src="img/game/Frame 1240.svg" alt="#"></div>
+									<div class="title">
+										<span>Loki lootbox</span>
+										<span class="bnb">3 bnb</span>
+									</div>
+									<div class="volume">
+										<span>Volume:</span>
+										<span class="all">1543 BNB</span>
+									</div>
+									<div class="space">
+										<div class="image">
+											<img src="img/game/Space 2 1.png" alt="#">
+											<span>Space ruins</span>
+										</div>
+										<div class="space--text">drop rate 1%</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="main--investors">
+			<div class="container">
+				<div class="row">
+					<h2 class="h2">What $MON brings to<br> investors </h2>
+					<div class="main--investors__wrapper">
+						<div class="item">
+							<div class="item--number"><img src="img/investors/01.svg" alt="#"></div>
+							<h3 class="h3">The key to Treasury</h3>
+							<div class="item--block">
+								<div class="item--block__text">
+									$MON token is the key to the treasure trove of the project. Token holders are eligible to
+									receive a share of fees of the Marketplace, Lootboxes and other MON services
+								</div>
+								<div class="item--block__images">
+									<img src="img/investors/1 23124.png" alt="#">
+									<img src="img/investors/4 (2).png" alt="#">
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="item--number"><img src="img/investors/02.svg" alt="#"></div>
+							<h3 class="h3">Access to unique features</h3>
+							<div class="item--block">
+								<div class="item--block__text">
+									As a holder of $MON, you have the privilege to access a range<br>
+									of exclusive features offered by the MON platform
+								</div>
+								<div class="item--block__images">
+									<img src="img/investors/cr2blue 1.png" alt="#">
+									<img src="img/investors/cr2blue 2.png" alt="#">
+									<img src="img/investors/cr2blue 3.png" alt="#">
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="item--number"><img src="img/investors/03.svg" alt="#"></div>
+							<h3 class="h3">NFT drops and burning</h3>
+							<div class="item--block">
+								<div class="item--block__text">
+									The token allows users to receive rare NFT drops from MON and partners. By buying assets with MON token in game
+									projects, users also set the mechanics of burning in motion
+								</div>
+								<div class="item--block__images">
+									<img src="img/investors/telegram-cloud-photo-size-5-6143084774667956530-y 2.png" alt="#">
+									<img src="img/investors/telegram-cloud-photo-size-5-6143084774667956530-y 4.png" alt="#">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="main--roadmap">
+			<div class="container">
+				<div class="row">
+					<div class="main--roadmap__wrapper">
+						<h2 class="h2">Roadmap</h2>
+						<div class="stages">
+							<div class="stage">
+								<div class="stage--number">
+									<span>Stage 0</span>
+								</div>
+								<span class="stage--title">NFT</span>
+								<ul class="stage--list">
+									<li>Marketplace MVP</li>
+									<li>Multichain</li>
+									<li>NFT mint station</li>
+									<li>URI metadata storage</li>
+									<li>Treasury</li>
+									<li>MON token launch</li>
+								</ul>
+							</div>
+							<div class="stage">
+								<div class="stage--number">
+									<span>Stage 1</span>
+								</div>
+								<span class="stage--title">Lootboxes</span>
+								<ul class="stage--list">
+									<li>MVP for 1155 and 721</li>
+									<li>Printer script</li>
+									<li>Whitelist mode</li>
+									<li>Chainlink integration</li>
+									<li>Launchpad</li>
+									<li>Mystery box mode</li>
+								</ul>
+							</div>
+							<div class="stage">
+								<div class="stage--number">
+									<span>Stage 2</span>
+								</div>
+								<span class="stage--title">MON engine</span>
+								<ul class="stage--list">
+									<li>Web3 Game engine “MON” </li>
+									<li>MON SDK</li>
+									<li>MDEX</li>
+									<li>Lootballs API</li>
+									<li>Marketplace API</li>
+								</ul>
+							</div>
+							<div class="stage">
+								<div class="stage--number">
+									<span>Stage 3</span>
+								</div>
+								<span class="stage--title">MON.LAND</span>
+								<ul class="stage--list">
+									<li>IGO</li>
+									<li>Game guide</li>
+									<li>Gem airdrop</li>
+									<li>NFT airdrop</li>
+									<li>Mons lootboxes</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="main--qrcode">
+			<div class="container">
+				<div class="row">
+					<div class="main--qrcode__wrapper">
+						<div class="left">
+							<div class="left--block">
+								<div class="image">
+									<img src="img/qrcode.png" alt="#">
+								</div>
+								<span class="text">Join us in the community using the qr code</span>
+							</div>
+						</div>
+						<div class="right">
+							<span class="dmsans">Token mechanics</span>
+							<div class="right--block">
+								<span class="h2">$MON</span>
+								<span class="subtitle">Our ticker</span>
+								<p>The key to royalties, unique platform features and rare NFT drops</p>
+							</div>
+							<div class="right--block">
+								<span class="h2">8%</span>
+								<span class="subtitle">Total fee</span>
+								<p>The source of auto liquidity and $GEM token mining</p>
+							</div>
+							<div class="right--block__last">
+								<div class="item">
+									<span class="h2">4% <div class="icon"><img src="img/percent.png" alt="#"></div></span>
+									<span class="subtitle">Auto liquidity</span>
+								</div>
+								<div class="item">
+									<span class="h2">4% <div class="icon"><img src="img/percent.png" alt="#"></div></span>
+									<span class="subtitle">$GEM mining</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="main--social">
+			<div class="container">
+				<div class="row">
+					<div class="main--social__wrapper">
+						<div class="left">
+							<h2 class="h2">Social networks</h2>
+							<span class="subtitle">We love talking to our community!</span>
+							<a href="#" class="link">
+								Coinmarketcap
+								<div class="icon">
+									<svg viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 1L6 7L1 13" stroke="#FCFCFD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+									</svg>
+								</div>
+							</a>
+						</div>
+						<div class="right">
+							<a href="#" class="right--item">
+								<div class="right--item__icon">
+									<img src="img/footer/medium.svg" alt="#">
+								</div>
+								<div class="right--item__text">
+									<span class="title">Medium</span>
+									<p class="text">Check out our Medium to learn more about our  brand, products, and prospects</p>
+								</div>
+							</a>
+							<a href="#" class="right--item">
+								<div class="right--item__icon">
+									<img src="img/footer/twitter.svg" alt="#">
+								</div>
+								<div class="right--item__text">
+									<span class="title">Twitter</span>
+									<p class="text">Tag us on Twitter to let us know what you think or just support us with a generous like</p>
+								</div>
+							</a>
+							<a href="#" class="right--item">
+								<div class="right--item__icon">
+									<img src="img/footer/telegram.svg" alt="">
+								</div>
+								<div class="right--item__text">
+									<span class="title">Telegram</span>
+									<p class="text">Chat with the worldwide community of MON Trainers <br>
+										on Telegram</p>
+								</div>
+							</a>
+							<a href="#" class="right--item">
+								<div class="right--item__icon">
+									<img src="img/footer/discord.svg" alt="">
+								</div>
+								<div class="right--item__text">
+									<span class="title">Discord chat</span>
+									<p class="text">Connect to our Discord server to always be in touch with us and our amazing community</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer--wrapper">
+					<div class="footer--wrapper__logo">
+						<div class="image"><img src="img/logo.svg" alt=""></div>
+						<div class="text">My Own NFTs</div>
+						<div class="social">
+							<a href="#" class="social--link">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M31.0769 13.1309C30.2531 13.4923 29.3752 13.7318 28.46 13.8482C29.4015 13.286 30.1202 12.4026 30.458 11.3378C29.5802 11.8612 28.6109 12.2309 27.578 12.4372C26.7445 11.5497 25.5565 11 24.2605 11C21.746 11 19.7217 13.0409 19.7217 15.5429C19.7217 15.9029 19.7522 16.2491 19.8269 16.5786C16.0511 16.3945 12.71 14.5848 10.4655 11.828C10.0737 12.5078 9.84385 13.286 9.84385 14.1237C9.84385 15.6966 10.6538 17.0909 11.8612 17.8982C11.1315 17.8843 10.4157 17.6725 9.80923 17.3388C9.80923 17.3526 9.80923 17.3706 9.80923 17.3886C9.80923 19.5957 11.3835 21.4289 13.448 21.8512C13.0783 21.9523 12.6754 22.0008 12.2572 22.0008C11.9665 22.0008 11.6729 21.9842 11.3974 21.9232C11.9858 23.7218 13.6557 25.0442 15.6412 25.0871C14.096 26.2958 12.134 27.0242 10.01 27.0242C9.63754 27.0242 9.28031 27.0075 8.92308 26.9618C10.9349 28.2592 13.3192 29 15.8905 29C24.248 29 28.8172 22.0769 28.8172 16.076C28.8172 15.8752 28.8103 15.6814 28.8006 15.4889C29.702 14.8492 30.4594 14.0503 31.0769 13.1309Z" fill="#B1B5C3"/>
+								</svg>
+							</a>
+							<a href="#" class="social--link">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M13.8493 24.529C18.6331 26.3959 22.7042 26.7595 27.3175 23.8536C27.2837 23.9043 26.3711 25.2563 23.9713 25.9492C24.4783 26.6421 25.1712 27.4363 25.1712 27.4363C26.7091 27.4363 28.2132 26.9969 29.5144 26.152C30.5284 25.4759 31.103 24.3099 30.9847 23.0931C30.7819 21.0144 30.2918 18.9865 29.5313 17.0431C28.5681 14.5081 26.2528 12.7505 23.5658 12.497C23.3291 12.4801 23.1602 12.4801 23.0588 12.4801L22.7884 12.7505C25.881 13.6293 27.4189 14.9981 27.4527 15.0489C22.7039 12.6491 17.0932 12.6153 12.3105 14.9475C12.3105 14.9475 13.8315 13.4434 17.1945 12.6491L16.9918 12.4463C16.6368 12.4463 16.2988 12.4801 15.944 12.5308C13.4597 12.9533 11.3811 14.6601 10.4854 17.0092C9.70798 19.0372 9.201 21.1665 9.01512 23.3297C8.91372 24.4788 9.45451 25.6112 10.4009 26.2703C11.6515 27.0983 13.1386 27.5377 14.6427 27.5377C14.6427 27.5377 15.2511 26.7434 15.8595 26.0336C13.578 25.3576 12.6485 24.0057 12.6316 23.955L13.061 24.1742C13.3177 24.3054 13.5808 24.4242 13.8493 24.529ZM16.5017 23.0593C15.4032 23.0255 14.5413 22.096 14.5751 20.9806C14.6089 19.9329 15.4539 19.0879 16.5017 19.0541C17.6002 19.0879 18.4621 20.0173 18.4282 21.1327C18.3775 22.1806 17.5495 23.0255 16.5017 23.0593ZM23.3967 23.0593C22.2982 23.0255 21.4363 22.096 21.4702 20.9806C21.504 19.9329 22.349 19.0879 23.3967 19.0541C24.4952 19.0879 25.3571 20.0173 25.3233 21.1327C25.2895 22.1806 24.4445 23.0255 23.3967 23.0593Z" fill="#B1B5C3"/>
+								</svg>
+							</a>
+							<a href="#" class="social--link">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M9.48512 19.8676L14.5455 21.5862L26.5593 14.2415C26.7334 14.135 26.9119 14.3715 26.7617 14.5098L17.6663 22.8816L17.3281 27.5686C17.3023 27.9251 17.7318 28.1236 17.9867 27.873L20.7872 25.1192L25.9066 28.9947C26.4585 29.4125 27.2575 29.118 27.4064 28.4421L30.9711 12.2564C31.1744 11.333 30.2697 10.5539 29.3867 10.892L9.45937 18.5227C8.83425 18.7621 8.85128 19.6523 9.48512 19.8676Z" fill="#B1B5C3"/>
+								</svg>
+							</a>
+							<a href="#" class="social--link">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_18_1632)">
+										<path d="M21.5373 19.9997C21.5373 23.7636 18.5069 26.8148 14.7687 26.8148C11.0304 26.8148 8 23.7636 8 19.9997C8 16.2358 11.0304 13.1846 14.7687 13.1846C18.5068 13.1846 21.5373 16.2358 21.5373 19.9997Z" fill="#B1B5C3"/>
+										<path d="M28.9625 19.9992C28.9625 23.5422 27.4473 26.4144 25.5782 26.4144C23.7091 26.4144 22.1938 23.5422 22.1938 19.9992C22.1938 16.4562 23.7091 13.584 25.5782 13.584C27.4473 13.584 28.9625 16.4562 28.9625 19.9992Z" fill="#B1B5C3"/>
+										<path d="M32.0002 19.9997C32.0002 23.1741 31.4673 25.7475 30.8099 25.7475C30.1525 25.7475 29.6196 23.1741 29.6196 19.9997C29.6196 16.8253 30.1525 14.252 30.8099 14.252C31.4673 14.252 32.0002 16.8253 32.0002 19.9997Z" fill="#B1B5C3"/>
+									</g>
+									<defs>
+										<clipPath id="clip0_18_1632">
+										<rect width="24" height="24" fill="white" transform="translate(8 8)"/>
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+						</div>
+					</div>
+					<nav class="footer--wrapper__menu">
+						<div class="footer--wrapper__block">
+							<span class="title">Marketplace</span>
+							<ul class="list">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Explore</a></li>
+								<li><a href="#">Create</a></li>
+							</ul>
+						</div>
+						<div class="footer--wrapper__block">
+							<span class="title">Lootboxes</span>
+							<ul class="list">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Explore</a></li>
+								<li><a href="#">Create</a></li>
+								<li><a href="#">Stats</a></li>
+							</ul>
+						</div>
+						<div class="footer--wrapper__block">
+							<span class="title">Resources</span>
+							<ul class="list">
+								<li><a href="#">Help Center</a></li>
+								<li><a href="#">FAQ</a></li>
+								<li><a href="#">Docs</a></li>
+								<li><a href="#">Stats</a></li>
+							</ul>
+						</div>
+						<div class="footer--wrapper__block">
+							<span class="title">Apply</span>
+							<ul class="list">
+								<li><a href="#">Apply for Partnership</a></li>
+								<li><a href="#">Apply for Launchpad</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="footer--bottom">
+					<div class="footer--bottom__left">
+						<div class="copyright">Copyright © 2021 Pocmons. All rights reserved</div>
+						<a href="#" class="link">Privacy Policy</a>
+						<a href="#" class="link">Terms of Service</a>
+					</div>
+					<div class="footer--bottom__right">
+						<div class="info">We use cookies for better service.</div>
+						<div class="company">Accept</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
